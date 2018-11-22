@@ -1,0 +1,6 @@
+provisionerKindTitle: DataPusher / Catalog
+
+ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"memory": "2Gi"}}'
+displayTimezone: America/New_York
+ckanPlugins: "stats text_view image_view recline_view datastore xloader"
+
