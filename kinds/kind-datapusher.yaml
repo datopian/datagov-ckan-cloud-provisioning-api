@@ -1,4 +1,4 @@
-provisionerKindTitle: DataPusher / Catalog
+provisioningKindTitle: DataPusher / Catalog
 
 ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"memory": "2Gi"}}'
 displayTimezone: America/New_York
