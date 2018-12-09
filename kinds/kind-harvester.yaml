@@ -6,35 +6,7 @@ displayTimezone: America/New_York
 ckanImage: viderum/ckan-cloud-docker:ckan-latest-datagov-theme
 ckanOperatorImage: viderum/ckan-cloud-docker:cca-operator-deb600181f36631020599e131622efeb7f5352c1
 
-ckanPlugins: |
-    stats
-    text_view
-    image_view
-    recline_view
-    datastore
-    xloader
-    harvest
-    ckan_harvester
-    datajson_harvest
-    datajson
-    archiver
-    report
-    dcat
-    dcat_rdf_harvester
-    dcat_json_harvester
-    dcat_json_interface
-    structured_data
-    geodatagov
-    geodatagov_miscs
-    z3950_harvester
-    arcgis_harvester
-    geodatagov_geoportal_harvester
-    waf_harvester_collection
-    geodatagov_csw_harvester
-    geodatagov_doc_harvester
-    geodatagov_waf_harvester
-    spatial_metadata
-    spatial_query
+ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_metadata spatial_query
 
 extraCkanConfig: |
     ## datajson settings
