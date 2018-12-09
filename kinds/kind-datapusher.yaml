@@ -4,6 +4,7 @@ ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"me
 displayTimezone: America/New_York
 
 ckanImage: viderum/ckan-cloud-docker:ckan-latest-datagov-theme
+ckanOperatorImage: viderum/ckan-cloud-docker:cca-operator-deb600181f36631020599e131622efeb7f5352c1
 
 ckanPlugins: |
     stats
