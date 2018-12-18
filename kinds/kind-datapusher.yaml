@@ -8,7 +8,7 @@ ckanOperatorImage: viderum/ckan-cloud-docker:cca-operator-2ab991d55cd465a9a7d135
 ckanHelmChartRepo: "https://raw.githubusercontent.com/ViderumGlobal/ckan-cloud-helm/use-themer/charts_repository"
 ckanHelmChartVersion: "v0.0.0-use-themer"
 
-ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_metadata spatial_query
+ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_metadata spatial_query usmetadata
 
 extraCkanConfig: |
     ## datajson settings
