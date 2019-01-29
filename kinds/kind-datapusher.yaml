@@ -4,9 +4,7 @@ ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"me
 displayTimezone: America/New_York
 
 ckanImage: viderum/ckan-cloud-docker:ckan-c96caea1f51d223d3c9201be3419890000ae9f4e-datagov-theme
-ckanOperatorImage: viderum/ckan-cloud-docker:cca-operator-2ab991d55cd465a9a7d1354974311623af64197f
-ckanHelmChartRepo: "https://raw.githubusercontent.com/ViderumGlobal/ckan-cloud-helm/use-themer/charts_repository"
-ckanHelmChartVersion: "v0.0.7-use-themer"
+ckanHelmChartVersion: "v0.0.7"
 
 ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_metadata spatial_query
 
