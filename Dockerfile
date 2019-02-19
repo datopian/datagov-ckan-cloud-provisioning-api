@@ -1,4 +1,4 @@
-FROM viderum/ckan-cloud-provisioning-api
+FROM viderum/ckan-cloud-provisioning-api:fdf6404e1363948f5cdd8e44bd33b732f471fb11
 
 USER root
 
