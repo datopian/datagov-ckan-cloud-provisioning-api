@@ -6,7 +6,7 @@ displayTimezone: America/New_York
 ckanImage: viderum/ckan-cloud-docker:ckan-98add721ff076d94f4de8e0c2b05493e967be566-datagov-theme
 ckanHelmChartVersion: "v0.0.7"
 
-ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_query 
+ckanPlugins: stats text_view image_view recline_view datastore xloader harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_query usmetadata
 
 extraCkanConfig: |
     ## datajson settings
