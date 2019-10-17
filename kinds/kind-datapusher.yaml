@@ -24,4 +24,4 @@ extraCkanConfig: |
     ## logstash
     logstash.kind = tcp
     logstash.host = logstash-application.elk
-    logstash.port = 5040
+    logstash.port = 5044
