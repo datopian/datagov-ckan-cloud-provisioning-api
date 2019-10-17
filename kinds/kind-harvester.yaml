@@ -3,7 +3,7 @@ provisioningKindTitle: Harvester
 ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"memory": "2Gi"}}'
 displayTimezone: America/New_York
 
-ckanImage: viderum/ckan-cloud-docker:ckan-cc76159f86cc27ddb2111923fc48bbe2802bf81b-datagov-theme
+ckanImage: viderum/ckan-cloud-docker:ckan-d1ef95738d5e4f9d4af8b4375191893fc55082ef-datagov-theme
 ckanHelmChartVersion: "v0.0.8"
 
 ckanPlugins: stats text_view image_view recline_view datastore xloader logstash harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_query
