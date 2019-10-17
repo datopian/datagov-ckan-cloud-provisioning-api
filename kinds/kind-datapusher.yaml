@@ -6,7 +6,7 @@ displayTimezone: America/New_York
 ckanImage: viderum/ckan-cloud-docker:ckan-78b5505611794fa2c7bcab07ed7f9516fd57ff32-datagov-theme
 ckanHelmChartVersion: "v0.0.8"
 
-ckanPlugins: stats text_view image_view recline_view datastore xloader datajson archiver report dcat dcat_json_interface structured_data geodatagov geodatagov_miscs spatial_metadata spatial_query usmetadata
+ckanPlugins: stats text_view image_view recline_view datastore xloader logstash datajson archiver report dcat dcat_json_interface structured_data geodatagov geodatagov_miscs spatial_metadata spatial_query usmetadata
 
 extraCkanConfig: |
     ## datajson settings
