@@ -3,7 +3,7 @@ provisioningKindTitle: DataPusher / Catalog
 ckanResources: '{"requests": {"cpu": "400m", "memory": "1200Mi"}, "limits": {"memory": "2Gi"}}'
 displayTimezone: America/New_York
 
-ckanImage: viderum/ckan-cloud-docker:ckan-b408a0658ed1cb21368bc9bd0c7be548f3900122-datagov-theme
+ckanImage: viderum/ckan-cloud-docker:ckan-e4716b4194d3f7be8497940cacb0debf42a744b9-datagov-theme
 ckanHelmChartVersion: "v0.0.8"
 
 ckanPlugins: stats text_view image_view recline_view datastore xloader logstash datajson archiver report dcat dcat_json_interface structured_data geodatagov geodatagov_miscs spatial_metadata spatial_query usmetadata
