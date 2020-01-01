@@ -6,7 +6,7 @@ ckanJobsResources: '{"requests": {"cpu": "150m", "memory": "200Mi"}, "limits": {
 displayTimezone: America/New_York
 
 ckanImage: viderum/ckan-cloud-docker:ckan-d22359f8b072b29ee10a6f940576ff06c4e9f186-datagov-theme
-ckanHelmChartVersion: "v0.0.11"
+ckanHelmChartVersion: "v0.0.14-rc4"
 ckanLivenessPeriodSeconds: 300
 ckanSorlSchema: "ckan_28_default"
 replicas: 1
