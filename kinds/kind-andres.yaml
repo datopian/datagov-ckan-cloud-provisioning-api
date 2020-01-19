@@ -1,0 +1,35 @@
+provisioningKindTitle: Andrés Development
+
+ckanResources: '{"requests": {"cpu": "250m", "memory": "800Mi"}, "limits": {"memory": "2Gi"}}'
+ckanJobsResources: '{"requests": {"cpu": "150m", "memory": "200Mi"}, "limits": {"memory": "1500Mi"}}'
+
+displayTimezone: America/New_York
+
+ckanImage: avdata99/ckan-cloud-docker:ckan-latest-datagov-theme
+harvesterImage: avdata99/ckan-cloud-docker:ckan-ng-harvest
+ckanHelmChartVersion: "v0.0.14-rc4"
+ckanLivenessPeriodSeconds: 300
+replicas: 1
+nginxReplicas: 1
+
+ckanPlugins: stats text_view image_view recline_view datastore xloader logstash harvest ckan_harvester datajson_harvest datajson archiver report dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface structured_data geodatagov geodatagov_miscs z3950_harvester arcgis_harvester geodatagov_geoportal_harvester waf_harvester_collection geodatagov_csw_harvester geodatagov_doc_harvester geodatagov_waf_harvester spatial_query
+
+enableHarvesterNG: true
+
+extraCkanConfig: |
+    ## datajson settings
+    ckanext.datajson.inventory_links_enabled = True
+    ckanext.datajson.url_enabled = False
+    ## Datagov settings
+    ckanext.geodatagov.dynamic_menu.url_default = http://www.data.gov/app/plugins/datagov-custom/wp_download_links.php
+    ckanext.geodatagov.dynamic_menu.url =
+    ckanext.geodatagov.bureau_csv.url_default = https://project-open-data.cio.gov/data/omb_bureau_codes.csv
+    ckanext.geodatagov.bureau_csv.url = https://project-open-data.cio.gov/data/omb_bureau_codes.csv
+    ## Harvest settings
+    ckan.harvest.mq.type = redis
+    ckan.harvest.mq.hostname = redis
+    ckan.harvest.mq.redis_db = 9
+    ## logstash
+    logstash.kind = tcp
+    logstash.host = logstash-application.elk
+    logstash.port = 5044
