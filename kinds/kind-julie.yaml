@@ -28,7 +28,3 @@ extraCkanConfig: |
     ckan.harvest.mq.type = redis
     ckan.harvest.mq.hostname = redis
     ckan.harvest.mq.redis_db = 9
-    ## logstash
-    logstash.kind = tcp
-    logstash.host = logstash-application.elk
-    logstash.port = 5044
